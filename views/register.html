@@ -1,0 +1,148 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercado Liebre</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/utils.css" />
+    <link rel="stylesheet" href="/css/theme.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header class="ml-yellow-bg padding">
+      <img id="logo" class="w-50" src="/img/logo-mercado-liebre.svg" alt="" />
+      <div>
+        <input type="text" placeholder="Buscar productos, marcas" />
+        <button><i class="fa fa-search"></i></button>
+      </div>
+      <p class="text-center">
+        <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta
+        de crédito
+      </p>
+      <nav id="ml-main-nav">
+        <ul>
+          <li>
+            <a href="#">Ofertas</a>
+          </li>
+          <li>
+            <a href="#">Tiendas Oficiales</a>
+          </li>
+          <li>
+            <a href="#">Vender</a>
+          </li>
+          <li>
+            <a href="#">Ayuda</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#">Creá tu cuenta <i class="far fa-id-card"></i></a>
+          </li>
+          <li>
+            <a href="#">Ingresá <i class="fas fa-sign-in-alt"></i></a>
+          </li>
+          <li>
+            <a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="burger-menu ml-lb-bg">
+        <i class="fas fa-bars ml-light-text"></i>
+      </div>
+    </header>
+
+    <main>
+        <h1>Registro</h1>
+        <form>
+        <div class="form-input">
+
+            <label for= "firstname">Nombre y Apellido</label>
+                <input
+                id="firstname"
+                type="text"
+                name="firstname"
+                placeholder="Nombre y Apellido"
+                />
+        </div>
+        <div class="form-input">
+
+            <label for= "username">Nombre de usuario</label>
+                <input
+                id="username"
+                type="text"
+                name="username"
+                placeholder="Nombre de Usuario"
+                />
+        </div>
+        <div class="form-input">
+
+            <label for= "birthdate">Fecha de nacimiento</label>
+                <input
+                id="birthdate"
+                type="date"
+                name="birthdate"
+                placeholder="Fecha de nacimiento"
+                />
+        </div>
+        <div class="form-input">
+
+            <label for= "address">Domicilio</label>
+                <input
+                id="address"
+                type="text"
+                name="address"
+                placeholder="Domicilio"
+                />
+        </div>
+        <label class="main-label" >Perfil de usuario</label>
+        <div class= "radio-label">          
+                <input
+                type="radio"
+                name="user-profile"
+                id="user-profile-seller"
+                value="seller"
+                />
+        <label for="user-profile-seller">Vendedor</label>         
+            <input
+            type="radio"
+            name="user-profile"
+            id="user-profile-buyer"
+            value="buyer"
+            />
+            <label for="user-profile-buyer">Comprador</label>
+         </div>
+         <div class="form-input">
+         <label>Intereses</label>
+         <div>          
+                 <input
+                 type="radio"
+                 name="user-profile"
+                 id="user-profile-seller"
+                 value="seller"
+                 />
+         <label for="user-profile-seller">Vendedor</label>         
+             <input
+             type="radio"
+             name="user-profile"
+             id="user-profile-buyer"
+             value="buyer"
+             />
+             <label for="user-profile-buyer">Comprador</label>
+          </div>
+          </div>
+        </form>
+
+    </main>
+    
+</body>
+</html>
