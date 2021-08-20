@@ -1,1 +1,1 @@
-web: node app.js
+web: node /Primosich-Lara/app.js
