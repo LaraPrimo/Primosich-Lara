@@ -1,62 +1,72 @@
 /* Fonts & Texts ====================  */
 
 body {
-    font-family: "Roboto";
-    font-size: 12px;
+  font-family: "Roboto";
+  font-size: 12px;
+  background-color: #ebebeb;
 }
-
 .text-title {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .text-price {
-    font-size: 18px;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 30%;
 }
 
 .text-discount {
-    font-size: 16px;
+  font-size: 16px;
+  margin-top: 0px;
+  width: 70%;
 }
 
 .text-desc {
-    font-size: 16px;
+  font-size: 16px;
+  padding-left: 15px;
 }
 
 /* Colors ====================  */
 
 .ml-yellow-text {
-    color: #eac926;
+  color: #eac926;
 }
 .ml-blue-text {
-    color: #03264c;
+  color: #03264c;
 }
 .ml-lb-text {
-    color: #1259c3;
+  color: #1259c3;
 }
 .ml-dark-text {
-    color: #666;
+  color: #666;
 }
 .ml-light-text {
-    color: #ebebeb;
+  color: #ebebeb;
 }
 .ml-green-text {
-    color: #39b54a;
+  color: #39b54a;
 }
 
 .ml-yellow-bg {
-    background-color: #eac926;
+  background-color: #eac926;
 }
 .ml-blue-bg {
-    background-color: #03264c;
+  background-color: #03264c;
 }
 .ml-lb-bg {
-    background-color: #1259c3;
+  background-color: #1259c3;
 }
 .ml-dark-bg {
-    background-color: #666;
+  background-color: #666;
 }
 .ml-light-bg {
-    background-color: #ebebeb;
+  background-color: #ebebeb;
 }
 .ml-green-bg {
-    background-color: #39b54a;
+  background-color: #39b54a;
+}
+
+.ml-white-bg {
+  background-color: white;
 }

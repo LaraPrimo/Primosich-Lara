@@ -1,20 +1,54 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  html,
-  body {
-    margin: 0;
-  }
-  
-  .text-center {
-    text-align: center;
-  }
-  
-  .w-50 {
-    width: 50%;
-  }
-  
-  .padding {
-    padding: 24px;
-  }
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+footer {
+  margin-top: 25px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.padding-16 {
+  padding: 16px;
+}
+
+.padding-8 {
+  padding: 8px;
+}
+
+.product-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.flex-grow {
+  flex-grow: 2;
+}
+
+.header-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-reglog {
+  border-radius: 5px;
+  width: 75%;
+}
