@@ -33,3 +33,12 @@
 .w-100 {
   width: 33%;
 }
+
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-flex section {
+  width: 33%;
+}
