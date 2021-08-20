@@ -90,6 +90,13 @@
   display: block;
 }
 
+.form-input input {
+  border: none;
+}
+
+.form-input button {
+  border: none;
+}
 .main-label {
   font-size: 14px;
 }
